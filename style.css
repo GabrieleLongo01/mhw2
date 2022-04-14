@@ -1,0 +1,179 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+.question-name {
+    background-repeat:no-repeat;
+ background-size:cover;
+  }
+
+
+
+.choice-grid {
+
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+flex-wrap:wrap;
+
+  }
+
+  .checkbox{
+position:relative;
+background-color: white;
+
+
+
+
+  }
+
+  .choice-grid img{
+     width:auto;
+    
+    margin-top:10px;
+     margin-left:10px;
+     margin-right:10px;
+
+position:relative;
+left:1px;
+
+
+
+  }
+
+
+  section div {
+    
+      margin-bottom:20px;
+      background-color:#f4f4f4;
+   
+  border:1px solid #dcdcdc;
+width:32.5%;
+
+
+  }
+
+  .check{
+background-color: #cfe3ff;
+
+
+  }
+
+  .check2{
+    background-color: #cfe3ff;
+    
+      }
+
+  
+
+  .uncheck{
+
+background-color: #f4f4f4;
+opacity: 0.6;
+
+  }
+
+ .button{
+   width: 660px;
+   font-size:20px;
+   background-color: #cecece;
+height:50px;
+  text-align:center;
+  margin:0px 18px 0px 18px;
+ display:none;
+  
+ }
+
+ .button_none{
+
+width: 660px;
+font-size:20px;
+background-color: #cecece;
+height:50px;
+text-align:center;
+margin:0px 18px 0px 18px;
+ }
+  
+
+
+.div{
+  margin-top:40px;
+width:auto;
+height:360px;
+
+
+
+}
+
+
+  
+
+.div p{
+  
+height:150px;
+margin:0px 20px 18px 20px;
+
+}
+
+
+.refresh_color{
+  background-color:#f4f4f4;
+}
+
+.result_none{
+  display:none;
+}
+
+
+  
+
+
+
+.div h1{
+  
+  margin:20px 20px 18px 20px;
+}
+
+
+@media(max-width:700px){
+
+article{
+  width:95%;
+}
+
+header div span{
+ 
+  background-color: white;
+}
+
+body{
+  width:100%;
+}
+
+
+.button_none{
+  width:480px;
+ 
+  margin:50px 18px 0px 18px;
+}
+}
+
+
+@media(max-width:500px){
+  section div{
+
+    width:49%;
+  }
+
+  .choice-grid img{
+    width:auto;
+  
+ }
+
+ 
+
+.button_none{
+  width:auto;
+ 
+  margin:50px 18px 0px 18px;
+}
+  
+  }
